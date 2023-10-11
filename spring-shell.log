@@ -1,0 +1,173 @@
+1696767405569:registerUser(Email,password9
+1696767419700:registerUser(Email,password)
+1696767443828:registerUser
+1696767613734:registerUser myemail@example.com mySecurePassword
+1696767978947:register-user y.bekri@eubia.de password
+1696767985855:registerUser
+1696767989865:register-user
+1696768171864:help
+1696768823792:app register-user y.bekri@eubia.de password
+1696769198698:app register-user email@example.com myPassword TALENT John Doe
+1696769201940:help
+1696769345594:app register-user email@example.com myPassword TALENT John Doe
+1696769530585:help
+1696769537281:app get-all-talents
+1696769674797:help
+1696769680934:app get-all-talents
+1696769904384:help
+1696769909519:app get-all-talents
+1696770016321:help
+1696770021561:app get-all-talents
+1696770685856:help
+1696770712221:helo
+1696770713876:help
+1696770721426:app get-all-companies
+1696770756551:app register-user email@example.com myPassword TALENT John Doe
+1696770791311:app register-user email@example.com myPassword COMPANY John Doe
+1696770803434:app get-all-companies
+1696771120494:help
+1696771175708:app register-user ybekri0@gmail.com Password TALENT Yassine Bekri
+1696771187897:app get-all-talents
+1696771246742:app register-user company@email.com Password COMPANY Company ONE
+1696771255336:app get-all-companies
+1696778761450:help
+1696778770077:app get-all-talents
+1696778779190:app delete-all-talents
+1696778789011:app get-all-talents
+1696779708174:help
+1696779746823:app register-user ybekri0@eubia.de Frikadell3 TALENT Yassine Bekri
+1696779754458:app get-all-talents
+1696779897041:app register-user johndoe@eubia.de Frikadell3 TALENT Yassine Bekri
+1696779904442:app get-all-talents
+1696780128139:app set-hard-skills 23 IT Java SystemAdministrator Remote Fulltime
+1696780400593:app get-all-talents
+1696780427086:app set-meta-skills-scores 23 3 4 5 1 3
+1696780644878:app get-talent-info 23
+1696781072254:app set-hard-skills 23 "Java" "Spring Boot" "Hibernate" "RESTful APIs"
+1696781079084:app get-talent-info 23
+1696781238651:shell:>app set-hard-skills 23 "Java,Spring Boot,Hibernate,RESTful APIs"
+1696781250201:app set-hard-skills 23 "Java,Spring Boot,Hibernate,RESTful APIs"
+1696781256969:app get-talent-info 23
+1696781789930:app get-all-companies
+1696781950787:app set-job-posting 1 Developer "Looking for a senior developer to work on our platform"
+1696781962441:app get-job-posting 1
+1696782515408:app get-all-companies
+1696782638713:app set-company-meta-skills-scores 2 3 4 5 1 3
+1696789926075:app create-default-company
+1696791226378:help
+1696791240078:app create-default-company
+1696792354290:@Command(command = "create-custom-job-posting")
+1696792354356:public String createCustomJobPosting(Long talentId) {
+1696792354402:}
+1696792418937:help
+1696792439119:app get-all-talents
+1696792455156:app get-talent-info 23
+1696792475378:app create-custom-job-posting 23
+1696793423690:app create-custom-job-request 23
+1696793453816:app create-custom-job-posting 23
+1696797438027:app talent-search-based-on-job-posting 1
+1696797924886:app get-all-jobs
+1696798163192:app get-all-talents
+1696798184500:app create-custom-job-posting 24
+1696798248607:app set-talent-meta-skills-scores 24 2 4 5 2 3
+1696798262107:app create-custom-job-posting 24
+1696798374921:app talent-search-based-on-job-posting 1
+1696801008456:app get-all-jobs
+1696801065677:app register-user ybekri0@developer.de Frikadell3 TALENT Yassine Bekri
+1696843984650:app register-user talent1@email.de Password TALENT Talent1 TEST
+1696843993066:app register-user talent2@email.de Password TALENT Talent2 TEST
+1696844005168:app register-user talent3@email.de Password TALENT Talent3 TEST
+1696844014575:app register-user talent4@email.de Password TALENT Talent4 TEST
+1696844025976:app register-user talent5@email.de Password TALENT Talent5 TEST
+1696844043943:app register-user talent6@email.de Password TALENT Talent7 TEST
+1696844056050:app register-user talent8@email.de Password TALENT Talent8 TEST
+1696844073651:app get-all-talents
+1696844217139:app set-hard-skills 25 "Holzbearbeitung, Bauplan-Lesen, Bedienung von Elektrowerkzeugen"
+1696844236255:app set-hard-skills 26 "Schaltkreis-Diagnose, Elektroinstallationen, Sicherheitsprotokolle"
+1696844258304:pp set-hard-skills 27 "MIG/TIG Schweißen, Bauplan-Interpretation, Fackelbedienung"
+1696844265366:pp set-hard-skills $ID "MIG/TIG Schweißen, Bauplan-Interpretation, Fackelbedienung"
+1696844285650:app set-hard-skills 27 "MIG/TIG Schweißen, Bauplan-Interpretation, Fackelbedienung"a
+1696844305824:app get-talent-info 27
+1696844349979:app set-hard-skills 28 "Rohrinstallation, Leck-Diagnose, Fachkenntnisse in Sanitärwerkzeugen"
+1696844365865:app set-hard-skills 29 "Motorreparatur, Bremssysteme, Diagnostik"
+1696844381905:app set-hard-skills 30 "Systeminstallation, Wartung, Kältemittel-Handling"
+1696844394506:app set-hard-skills 31 "Mauerwerk, Mörtelzubereitung, Strukturanalyse"
+1696844411960:app set-hard-skills 32"Oberflächenvorbereitung, Farbmischung, Sprühmalerei"
+1696844421373:app set-hard-skills 32 "Oberflächenvorbereitung, Farbmischung, Sprühmalerei"
+1696844541152:app set-talent-meta-skills-scores 28 3 4 2 5 2
+1696844542015:# Talent ID 29
+1696844542019:app set-talent-meta-skills-scores 29 4 3 5 1 4
+1696844542556:# Talent ID 30
+1696844542560:app set-talent-meta-skills-scores 30 2 5 3 4 2
+1696844543105:# Talent ID 31
+1696844543109:app set-talent-meta-skills-scores 31 5 2 4 3 3
+1696844543593:# Talent ID 32
+1696844543597:app set-talent-meta-skills-scores 32 3 5 2 4 1
+1696844544192:# Talent ID 33
+1696844544195:app set-talent-meta-skills-scores 33 4 4 3 2 5
+1696844544465:# Talent ID 34
+1696844544468:app set-talent-meta-skills-scores 34 5 3 4 2 2
+1696844544751:# Talent ID 35
+1696844544753:app set-talent-meta-skills-scores 35 2 4 5 3 3
+1696844567785:app get-talent-info 28
+1696844650359:app get-all-companies
+1696844720384:# Job Posting corresponding to Talent ID 28 (Elektriker)
+1696844720393:app set-job-posting 2 "Elektriker" "Suchen Sie einen Elektriker mit guten Kommunikationsfähigkeiten und Teamarbeit. Erfahrung in Industrieanlagen erforderlich."
+1696844720933:# Job Posting corresponding to Talent ID 29 (Schweißer)
+1696844720942:app set-job-posting 2 "Schweißer" "Wir suchen einen Schweißer mit präzisen Fertigkeiten und der Fähigkeit, unter Druck zu arbeiten. Erfahrung mit MIG und TIG Schweißen bevorzugt."
+1696844721382:# Job Posting corresponding to Talent ID 30 (Maurer)
+1696844721393:app set-job-posting 2 "Maurer" "Auf der Suche nach einem Maurer mit hohem Qualitätsstandard und gutem Zeitmanagement. Vorerfahrung in Großprojekten ist ein Plus."
+1696844721840:# Job Posting corresponding to Talent ID 31 (Rohrleger)
+1696844721849:app set-job-posting 2 "Rohrleger" "Wir benötigen einen Rohrleger mit Erfahrung in industriellen und wohnwirtschaftlichen Projekten. Sorgfältigkeit ist entscheidend."
+1696844722322:# Job Posting corresponding to Talent ID 32 (Tischler)
+1696844722329:app set-job-posting 2 "Tischler" "Suchen Sie einen Tischler, der sowohl in der Werkstatt als auch vor Ort arbeiten kann. Kreativität und Detailorientierung sind erforderlich."
+1696844722789:# Job Posting corresponding to Talent ID 33 (Metallbauer)
+1696844722797:app set-job-posting 2 "Metallbauer" "Wir brauchen einen Metallbauer mit Kenntnissen in Strukturdesign und -herstellung. Teamarbeit und Flexibilität sind Schlüssel."
+1696844723254:# Job Posting corresponding to Talent ID 34 (Lackierer)
+1696844723262:app set-job-posting 2 "Lackierer" "Auf der Suche nach einem Lackierer mit Erfahrung in verschiedenen Techniken und Materialien. Genauigkeit und ein gutes Auge für Details sind unerlässlich."
+1696844723698:# Job Posting corresponding to Talent ID 35 (Stuckateur)
+1696844723706:app set-job-posting 2 "Stuckateur" "Suchen Sie einen Stuckateur, der sowohl Innen- als auch Außenarbeiten ausführen kann. Kreativität und Erfahrung sind wichtig."
+1696844742259:app get-job-posting 2
+1696845006679:app get-all-talents
+1696845033697:app get-talent-info 26
+1696845050475:app get-talent-info 27
+1696845060678:app get-talent-info 28
+1696845397751:app get-talents-for-job 2
+1696845424213:help
+1696845456005:app set-talent-meta-skills-scores 26 3 4 1 2 4
+1696845476594:app set-talent-meta-skills-scores 27 5 3 2 5 1
+1696845543663:app get-job-posting 2
+1696847913257:help
+1696848325639:app get-all-talents
+1696848357379:app get-talent-info 26
+1696848389829:help
+1696848461769:app register-user testemail23@email.de Frikadell3 TALENT Talent45 Test
+1696848472167:app get-all-talents
+1696848524175:app set-hard-skills 33 "Java entwickler, Spring Boot, Google Cloud"
+1696848717420:app set-talent-meta-scores 33 4 5 2 1 3
+1696848740289:app set-talent-meta-skills scores 33 4 4 2 4 2
+1696848755852:app set-talent-meta-skills-scores 33 4 3 2 4 5
+1696848772980:app gett-talent-info 33
+1696848780933:app get-talent-info 33
+1696848815143:app get-job-posting 2
+1696848845392:app get-talent-info 27
+1696848871136:app get-talent-info 26
+1696848944292:app get-talent-for-job 2
+1696848971501:app get-talents-for-job 2
+1696855344907:help
+1696855361539:app get-all-talents
+1696855382694:app get-job-posting 2
+1696926458681:help
+1696926562694:app get-job-posting 2
+1696926594081:app get-all-talents
+1696926631987:app get-talent-info 26
+1696927448083:help
+1696927477977:app get-all-talents
+1696927501024:app get-talent-info 26
+1696927552003:app set-hard-skills 23 " Java Spring Boot Google Cloud "
+1696927582738:app get-all-jobs 2
+1696927708337:app get-talent-for-job 3
+1696927719140:app get-talents-for job 3
+1696927723436:help
+1696927756612:app get-talents-for-job 2
+1696927869042:app get-talents-for-job 3
